@@ -6,10 +6,10 @@ class CustomTextField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return  TextField(
+      maxLines: maxLines,
       cursorColor: Colors.cyanAccent,
       decoration: InputDecoration(
           hintText: hint,
-          hintMaxLines: maxLines,
           hintStyle: const TextStyle(color: Colors.purple),
           border:buildBorder(),
           enabledBorder:buildBorder(),
