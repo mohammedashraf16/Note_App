@@ -17,6 +17,7 @@ class CustomIcon extends StatelessWidget {
       child: IconButton(
         onPressed: () {},
         icon: Icon(
+          color: Colors.purple,
           icon,
           size: 30,
         ),
